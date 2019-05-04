@@ -20,7 +20,7 @@ public class JMSConfig {
     @Bean
     public JmsTemplate jmsTemplate(){
         JmsTemplate template = new JmsTemplate(connectionFactory());
-        template.setPubSubDomain(true);
+//        template.setPubSubDomain(true);
         return template;
     }
 
